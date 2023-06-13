@@ -1,11 +1,13 @@
 body {
-    margin: 20px;
     /*
     Challenge:
     Find a web safe font you like, and add it 
     to your card.
     */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+
 }
 
 .avatar {
@@ -14,7 +16,7 @@ body {
 
 .card {
     width: 400px;
-    margin: 30vh auto;
+    margin: 20vh auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -37,3 +39,44 @@ body {
 .card:hover {
     width: 415px;
   }
+
+
+.space-card {
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    width: 450px;
+    display: inline-block;
+}
+
+#space-card-2 {
+    background-image: url("images/galaxy2.gif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+#main-logo {
+    width: 100px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: inherit;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+.terms {
+    cursor: pointer;
+}
+   
