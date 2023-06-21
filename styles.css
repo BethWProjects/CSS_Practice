@@ -18,7 +18,7 @@ body {
 
 .card {
     width: 400px;
-    margin: 20vh auto;
+    margin: 10vh auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -48,6 +48,7 @@ body {
     color: #82a5ca;
     width: 450px;
     display: inline-block;
+    margin: 10vh auto;
 }
 
 #space-card-2 {
@@ -82,7 +83,12 @@ body {
     cursor: pointer;
 }
    
-/* Start of birthday CSS.  Inheriting color and background from body property above */
+/* Challenge: create birthday gif using CSS.  Inheriting color and background from body property above */
+
+.birthday-card, .space {
+    border-top: 8px dotted #003049;
+    border-radius: 5px;
+}
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
@@ -113,6 +119,7 @@ h1, h2, h3, h4, p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 
 .gift-section {
