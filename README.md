@@ -6,7 +6,7 @@ This is a site I've created to practice CSS skills.
 
 
 ## Deployed Link
-[CSS Deployed Link](https://main--monumental-beijinho-eeda38.netlify.app/)
+![CSS Deployed Link](https://main--monumental-beijinho-eeda38.netlify.app/)
 
 Deployed using ![Netlify]()
 
