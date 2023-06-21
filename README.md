@@ -1,9 +1,7 @@
 # CSS_Practice
 
 ## Overview
-This is a site I've created to practice CSS skills. 
-![CSS Practice Page](https://main--monumental-beijinho-eeda38.netlify.app/)
-
+This is a simple site I've created to practice CSS skills.  
 
 ## Deployed Link
 Deployed using Netlify: [CSS Deployed Link](https://main--monumental-beijinho-eeda38.netlify.app/)
