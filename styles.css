@@ -7,6 +7,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
 
 }
 
@@ -80,3 +82,99 @@ body {
     cursor: pointer;
 }
    
+/* Start of birthday CSS.  Inheriting color and background from body property above */
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 300px;
+    background-image: url("images/gold-2.png");
+    background-size: cover;
+    
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gold.jpeg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/dog.gif");
+    cursor: pointer;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot-dog.gif");
+    cursor: pointer;
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/be-happy.gif");
+    cursor: pointer;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/super-dog.gif");
+    cursor: pointer;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/scuby.gif");
+    cursor: pointer;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
